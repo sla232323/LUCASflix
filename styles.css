@@ -1,0 +1,57 @@
+body {
+background: purple;
+color: aquamarine;
+margin: 5px;
+font-family: "Handjet", sans-serif;
+} 
+
+header{
+    border-bottom: solid 2px rgb(127,255,212,1);
+    padding: 10px;
+    font-size: 60px;
+    color: rgb(198,162,22,1);
+
+}
+
+section {
+
+background: rgb( 138,43,226,1);
+padding: 30;
+padding-top: 75;
+display: flex;
+justify-content: center;
+font-size: 30;
+}
+
+.chamada-opnião {
+   margin-right: 10%;
+
+
+}
+
+.Videos-Imagens {
+
+display: flex;
+overflow-x: auto;
+gap: 13;
+
+}
+
+.Videos-Imagens{
+
+padding-left: 15;
+padding-right:15;
+}
+
+.Videos-Imagens img{
+
+opacity: 0.8;
+height: 140;
+}
+
+.Videos-Imagens img:hover{
+
+ opacity: 1.8;
+ border: 6;
+}
+
